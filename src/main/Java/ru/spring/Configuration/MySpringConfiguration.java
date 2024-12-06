@@ -28,7 +28,7 @@ public class MySpringConfiguration implements WebMvcConfigurer {
     public SpringResourceTemplateResolver templateResolver() {
         SpringResourceTemplateResolver templateResolver = new SpringResourceTemplateResolver();
         templateResolver.setApplicationContext(applicationContext);
-        templateResolver.setPrefix("WEB-INF/Views/");
+        templateResolver.setPrefix("/WEB-INF/Views/");
         templateResolver.setSuffix(".html");
         return templateResolver;
     }

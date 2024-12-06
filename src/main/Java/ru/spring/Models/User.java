@@ -7,8 +7,6 @@ public class User {
 
     private String name;
 
-
-
     public User(int id, String name) {
         this.id=id;
         this.name = name;
